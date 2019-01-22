@@ -1,0 +1,88 @@
+html {
+	height: 100%;
+}
+
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-top: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+#app {
+	min-height: 100vh;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.footer {
+	margin-top: 80px;
+}
+
+
+td, th {
+  padding: 4px;
+}
+
+h1, h2, h3 {
+  color: #00F;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+	padding: 8px;
+	margin-top: 8px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+/*
+#footer {
+	position: relative;
+	margin-top: -180px;
+	height: 180px;
+	clear: both;
+	backgroun-color: #eaf2ff;
+}
+*/
+
+
+
+.website {
+	float: left;
+}
+
+.github {
+	float: right;
+}
+	
