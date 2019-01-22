@@ -96,12 +96,5 @@ to start new round"
 	[guess-table]
     [footer]])
 
-(comment 
-(defn mount-root []
-  (r/render [content] (.getElementById js/document "app")))
-
-(defn init! []
-  (mount-root))
-)
 (defn init! []
 	(r/render [content] (.getElementById js/document "app")))
